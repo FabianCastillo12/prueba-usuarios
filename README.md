@@ -17,8 +17,7 @@ El proyecto sigue la **arquitectura hexagonal (Ports & Adapters)**, separando la
 
 - **domain/**: Entidades, servicios y puertos (interfaces de repositorios).
 - **application/**: Casos de uso y DTOs.
-- **infraestructure/**: Controladores, rutas, repositorios y servicios de base de datos.
-- **infrastructure/**: (Alias, puede contener adaptadores y configuración de infraestructura)
+- **infrastructure/**: Controladores, rutas, repositorios y servicios de base de datos.
 
 ## Tecnologías
 - Node.js
