@@ -20,7 +20,7 @@ describe('App (index.ts)', () => {
     app.use('/api', configureUserRoutes(mockUserController as any));
     app.use('/api', configureProductRoutes(mockProductController as any));
   });
-
+  
   it('GET /api/obtener-productos debe responder 200', async () => {
       const res = await request(app).get('/api/obtener-productos');
       expect(res.status).toBe(200);
